@@ -14,9 +14,7 @@ class StaticController < ApplicationController
   def contact
   end
 
-  
   def inscription
   end
 
-  
 end
