@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/faq', 			to: 'static#faq'
   get '/philosophie', 	to: 'static#philosophie'
   get '/inscription',	to: 'static#inscription'
+  get '/mentions', to: 'static#mentions'
   
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get '/contact', to: 'messages#new'

@@ -17,4 +17,8 @@ class StaticController < ApplicationController
   def inscription
   end
 
+  def mentions
+    
+  end
+
 end

@@ -43,6 +43,11 @@
   <body>
   <%= render 'layouts/header'%>
     <%= yield %>
+  <br>
+  <div style="text-align: center;">
+  <%= link_to ("nos mentions légales"), mentions_path, id:"mentions_legales"%>
+  </div>
+  <br>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
  
         <!-- modernizr js -->
